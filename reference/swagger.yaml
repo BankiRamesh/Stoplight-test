@@ -1,0 +1,22 @@
+swagger: '2.0'
+info:
+  description: A Simple IP Address API
+  title: new-apis
+  version: v1
+host: api.ipify.org
+schemes:
+  - https
+basePath: /
+paths:
+  /cloudlink/rest/api-docs:
+    get:
+      summary: Get client IP
+      responses:
+        '200':
+          description: Success response
+  /test:
+    post:
+      summary: Get client IP
+      responses:
+        '200':
+          description: Success response
