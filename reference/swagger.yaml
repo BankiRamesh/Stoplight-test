@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   description: A Simple IP Address API
-  title: new-apis
+  title: new
   version: v1
 host: api.ipify.org
 schemes:
@@ -16,7 +16,14 @@ paths:
           description: Success response
   /test:
     post:
-      summary: Get client IP
+      summary: Get client new
+      operationId: testNew
       responses:
         '200':
           description: Success response
+  /users:
+    get:
+      summary: new api
+      responses: {}
+      operationId: get-users
+      description: Success response
